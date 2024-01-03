@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Your Miu Kittu❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="heart.svg" />
+    <link rel="stylesheet" href="style2.css">
+    <script src="global.js"></script>
+    <!-- <script src="temp.js"></script>   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="jquery1.js"></script> -->
+</head>
+<body>
+    <div class="mid">
+        <button onclick="next()" class="btn1">Next Page</button>
+    </div>
+    <div class="container">  
+        <div class="valentines">
+          <div class="envelope"></div>
+          <div class="front"></div>
+          <div class="card">
+          <div class="text">Happy</br> Birthday</br> Cutie</div>
+          <div class="heart"></div>
+          </div>
+          <div class="hearts">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+          </div>
+        </div>
+        </div>
+        <!-- <div class="shadow"></div> -->
+        </div>
+    <script>
+        function next(){
+            window.location = "index1.html";
+        }
+        $(document).ready(function () {
+    $('.container').mouseenter(function () {
+        $('.card').stop().animate({
+            top: '-90px'
+        }, 'slow');
+    }).mouseleave(function () {
+        $('.card').stop().animate({
+            top: 0
+        }, 'slow');
+    });
+});
+    </script>
+</body>
+</html>
